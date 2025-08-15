@@ -91,7 +91,7 @@ function App() {
             id="password"
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             {...register("password")}
-            placeholder="Correo electrónico"
+            placeholder="Contraseña"
           />
           {errors.password && (
             <span className="text-red-700 text-sm">
@@ -111,7 +111,7 @@ function App() {
             id="confirmPassword"
             className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             {...register("confirmPassword")}
-            placeholder="Correo electrónico"
+            placeholder="Confirmar contraseña"
           />
           {errors.confirmPassword && (
             <span className="text-red-700 text-sm">
